@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=/nfs/home/a/ac_pate/COEN317/lab2/lab2/lab2.runs/impl_1/system_stub_routed.ncd
+OUTFILE=/nfs/home/a/ac_pate/COEN317/lab2/lab2/lab2.runs/impl_1/system_stub.bit
+FAMILY=Zynq
+PART=xc7z020-1clg484
+WORKINGDIR=/nfs/home/a/ac_pate/COEN317/lab2/lab2/lab2.runs/impl_1
+LICENSE=ISE
+USER_INFO=174208431_1777582641_210797993_828

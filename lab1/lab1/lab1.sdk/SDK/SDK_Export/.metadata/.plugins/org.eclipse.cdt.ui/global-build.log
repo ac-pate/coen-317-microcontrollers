@@ -1,0 +1,85 @@
+16:52:29 **** Build of project HelloWorld_bsp ****
+make -k all 
+libgen -hw ../system_hw_platform/system.xml\
+       \
+       -pe ps7_cortexa9_0 \
+       -log libgen.log \
+       system.mss
+libgen
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../system_hw_platform/system.xml -pe ps7_cortexa9_0
+-log libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling standalone
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Compiling canps
+Compiling devcfg
+Compiling dmaps
+Compiling emacps
+Compiling gpiops
+Compiling iicps
+Compiling qspips
+Compiling scugic
+Compiling scutimer
+Compiling scuwdt
+Compiling ttcps
+Compiling uartps
+Compiling usbps
+Compiling wdtps
+Compiling xadcps
+Compiling cpu_cortexa9
+Running execs_generate.
+Finished building libraries
+16:52:59 **** Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -I../../HelloWorld_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: HelloWorld.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../HelloWorld_bsp/ps7_cortexa9_0/lib -o "HelloWorld.elf" ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: HelloWorld.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size HelloWorld.elf  |tee "HelloWorld.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19548	   1096	  29788	  50432	   c500	HelloWorld.elf
+Finished building: HelloWorld.elf.size
+ 
+16:55:07 **** Auto Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -I../../HelloWorld_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: HelloWorld.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../HelloWorld_bsp/ps7_cortexa9_0/lib -o "HelloWorld.elf" ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: HelloWorld.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size HelloWorld.elf  |tee "HelloWorld.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 467172	   2540	  38856	 508568	  7c298	HelloWorld.elf
+Finished building: HelloWorld.elf.size
+ 
+16:59:25 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+make: Nothing to be done for 'all'.

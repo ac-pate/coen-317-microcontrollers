@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="26">
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Lab2/lab2_gpio_for_C.ucf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../t/ted/PUBLIC/COEN317/Lab2/lab2_gpio_for_C.ucf"/>
+        <Attr Name="ImportTime" Val="1473353761"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="UCF"/>
+    </Config>
+  </FileSet>
+</DARoots>

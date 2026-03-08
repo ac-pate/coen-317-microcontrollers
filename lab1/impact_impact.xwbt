@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/nfs/home/a/ac_pate/COEN317/lab1/impact.xsl
+OUTFILE=/nfs/home/a/ac_pate/COEN317/lab1/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/nfs/home/a/ac_pate/COEN317/lab1
+LICENSE=iMPACT
+USER_INFO=iMPACT
