@@ -1,0 +1,25 @@
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design system_axi_timer_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   system_axi_timer_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus axi_timer_0/bus2ip_rdce<6 : 0> on block
+   system_axi_timer_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_expnd_i<7 : 0> on
+   block system_axi_timer_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus axi_timer_0/TC_CORE_I/tCSR0_Reg<31 : 20>
+   on block system_axi_timer_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file system_axi_timer_0_wrapper.edif ...
+PMSPEC -- Overriding Xilinx file
+</CMC/tools/xilinx_14.7/14.7/ISE_DS/ISE/data/ngc2edif.pfd> with local file
+</nfs/sw_cmc/x86_64.EL7/tools/xilinx_14.7/14.7/ISE_DS/ISE/data/ngc2edif.pfd>
+ngc2edif: Total memory usage is 93336 kilobytes
+

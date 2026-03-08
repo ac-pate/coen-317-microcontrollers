@@ -1,0 +1,10 @@
+# axi_gpio_for_C LEDS on ZC702
+NET axi_gpio_for_output_pins<0> LOC = E15;
+NET axi_gpio_for_output_pins<1> LOC = D15;
+NET axi_gpio_for_output_pins<2> LOC = W17;
+NET axi_gpio_for_output_pins<3> LOC = W5;
+NET axi_gpio_for_output_pins<4> LOC = V7;
+NET axi_gpio_for_output_pins<5> LOC = W10;
+NET axi_gpio_for_output_pins<6> LOC = P18;
+NET axi_gpio_for_output_pins<7> LOC = P17;
+NET axi_gpio_for_output_pins[*] IOSTANDARD = LVCMOS25;

@@ -1,0 +1,91 @@
+01:05:00 **** Build of project lab3.1_bsp ****
+make -k all 
+libgen -hw ../system_hw_platform/system.xml\
+       \
+       -pe ps7_cortexa9_0 \
+       -log libgen.log \
+       system.mss
+libgen
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../system_hw_platform/system.xml -pe ps7_cortexa9_0
+-log libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling common
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Compiling standalone
+Compiling gpio
+Compiling tmrctr
+Compiling canps
+Compiling devcfg
+Compiling dmaps
+Compiling emacps
+Compiling gpiops
+Compiling iicps
+Compiling qspips
+Compiling scugic
+Compiling scutimer
+Compiling scuwdt
+Compiling ttcps
+Compiling uartps
+Compiling usbps
+Compiling wdtps
+Compiling xadcps
+Compiling cpu_cortexa9
+Running execs_generate.
+Finished building libraries
+01:05:37 **** Build of configuration Debug for project lab3.1 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -I../../lab3.1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: lab3.1.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../lab3.1_bsp/ps7_cortexa9_0/lib -o "lab3.1.elf" ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: lab3.1.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size lab3.1.elf  |tee "lab3.1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19548	   1096	  29788	  50432	   c500	lab3.1.elf
+Finished building: lab3.1.elf.size
+ 
+01:08:48 **** Auto Build of configuration Debug for project lab3.1 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -I../../lab3.1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: lab3.1.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../lab3.1_bsp/ps7_cortexa9_0/lib -o "lab3.1.elf" ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: lab3.1.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size lab3.1.elf  |tee "lab3.1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 470588	   2572	  38880	 512040	  7d028	lab3.1.elf
+Finished building: lab3.1.elf.size
+ 
+01:09:53 **** Incremental Build of configuration Debug for project lab3.1 ****
+make all 
+make: Nothing to be done for 'all'.
+01:11:39 **** Incremental Build of configuration Debug for project lab3.1 ****
+make all 
+make: Nothing to be done for 'all'.
