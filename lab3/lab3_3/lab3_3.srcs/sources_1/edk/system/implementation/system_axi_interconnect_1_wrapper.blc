@@ -1,0 +1,30 @@
+Release 14.7 ngcbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line:
+/nfs/sw_cmc/x86_64.EL7/tools/xilinx_14.7/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngc
+build -p xc7z020clg484-1 -intstyle silent -i -sd ..
+system_axi_interconnect_1_wrapper.ngc ../system_axi_interconnect_1_wrapper
+
+Reading NGO file
+"/nfs/home/a/ac_pate/COEN317/lab3/lab3_3/lab3_3.srcs/sources_1/edk/system/implem
+entation/axi_interconnect_1_wrapper/system_axi_interconnect_1_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 641716 kilobytes
+
+Writing NGC file "../system_axi_interconnect_1_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  2 sec
+Total CPU time to NGCBUILD completion:   2 sec
+
+Writing NGCBUILD log file "../system_axi_interconnect_1_wrapper.blc"...

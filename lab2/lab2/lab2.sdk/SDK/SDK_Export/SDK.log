@@ -88,3 +88,48 @@
 23:53:32.513 INFO  - Processor reset is completed for ps7_cortexa9_0 
 23:55:42.431 INFO  - Processor reset is completed for ps7_cortexa9_0 
 23:57:20.423 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:35:31.167 INFO  - Processing command line option -hwspec /nfs/home/a/ac_pate/COEN317/lab2/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml. 
+16:35:50.165 WARN  - Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use 
+16:35:55.602 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+16:36:42.203 ERROR - Port /dev/ttyUSB0 is already in use. 
+16:36:42.603 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+16:36:51.771 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:37:13.681 INFO  - Processing command line option -hwspec /nfs/home/a/ac_pate/COEN317/lab2/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml. 
+16:37:32.503 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+16:38:16.411 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:39:21.757 INFO  - Processing command line option -hwspec /nfs/home/a/ac_pate/COEN317/lab2/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml. 
+16:40:04.236 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:40:04.336 INFO  - PS initialization will be done as it is not done before. 
+16:40:04.336 INFO  - Running PS initialization.... 
+16:40:04.747 INFO  - ps7_init is completed. 
+16:40:04.848 INFO  - ps7_post_config is completed. 
+16:40:04.948 INFO  - PS Initialization is complete. 
+16:41:46.335 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:14:19.889 INFO  - Processing command line option -hwspec /nfs/home/a/ac_pate/COEN317/lab2/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml. 
+17:14:35.932 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:14:36.032 INFO  - PS initialization will be done as it is not done before. 
+17:14:36.033 INFO  - Running PS initialization.... 
+17:14:36.432 INFO  - ps7_init is completed. 
+17:14:36.532 INFO  - ps7_post_config is completed. 
+17:14:36.632 INFO  - PS Initialization is complete. 

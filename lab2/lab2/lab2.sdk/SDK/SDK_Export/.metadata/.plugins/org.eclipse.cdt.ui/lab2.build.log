@@ -1,21 +1,6 @@
-23:57:59 **** Auto Build of configuration Debug for project lab2 ****
+17:14:31 **** Incremental Build of configuration Debug for project lab2 ****
 make all 
-Building file: ../src/main.cc
-Invoking: ARM g++ compiler
-arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -I../../lab2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
-Finished building: ../src/main.cc
- 
-Building target: lab2.elf
-Invoking: ARM g++ linker
-arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/ps7_cortexa9_0/lib -o "lab2.elf" ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
-Finished building target: lab2.elf
- 
-Invoking: ARM Print Size
-arm-xilinx-eabi-size lab2.elf  |tee "lab2.elf.size"
-   text	   data	    bss	    dec	    hex	filename
- 468692	   2556	  38880	 510128	  7c8b0	lab2.elf
-Finished building: lab2.elf.size
- 
+make: Nothing to be done for 'all'.
 
-23:57:59 Build Finished (took 731ms)
+17:14:31 Build Finished (took 158ms)
 

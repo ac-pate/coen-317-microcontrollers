@@ -20,7 +20,7 @@
       </File>
       <File Name="implementation/system.ngc" Type="NGC">
         <Description>This is NGC file</Description>
-        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1772130866"/>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1772130875"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
       </File>
@@ -31,7 +31,7 @@
       </File>
       <File Name="implementation/system_processing_system7_0_wrapper.ncf" Type="NCF">
         <Description>This is NCF file</Description>
-        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="true" IsVisible="true" Timestamp="1772130842"/>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1772130842"/>
         <UsedIn Val="IMPLEMENTATION"/>
       </File>
       <File Name="implementation/system_processing_system7_0_wrapper.ngc" Type="NGC">
@@ -42,12 +42,12 @@
       </File>
       <File Name="data/system.ucf" Type="UCF">
         <Description>This is UCF file</Description>
-        <Properties IsDisabled="false" IsEditable="true" IsTrackable="true" IsUserDisableable="true" IsVisible="true" Timestamp="1772122633"/>
+        <Properties IsDisabled="false" IsEditable="true" IsTrackable="true" IsUserDisableable="false" IsVisible="true" Timestamp="1772122633"/>
         <UsedIn Val="NONE"/>
       </File>
       <File Name="data/system.ncf" Type="NCF">
         <Description>This is NCF file</Description>
-        <Properties IsDisabled="false" IsEditable="false" IsTrackable="true" IsUserDisableable="true" IsVisible="false" Timestamp="1772130866"/>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="true" IsUserDisableable="false" IsVisible="false" Timestamp="1773952144"/>
         <UsedIn Val="IMPLEMENTATION"/>
       </File>
     </FileCollection>

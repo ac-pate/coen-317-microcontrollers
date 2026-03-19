@@ -1,0 +1,22 @@
+16:52:11.575 INFO  - Processing command line option -hwspec /nfs/home/a/ac_pate/COEN317/lab3/lab3_3/lab3_3.sdk/SDK/SDK_Export/hw/system.xml. 
+16:53:27.728 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:53:27.828 INFO  - PS initialization will be done as it is not done before. 
+16:53:27.828 INFO  - Running PS initialization.... 
+16:53:28.232 INFO  - ps7_init is completed. 
+16:53:28.332 INFO  - ps7_post_config is completed. 
+16:53:28.432 INFO  - PS Initialization is complete. 
+17:00:55.510 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:00:55.610 INFO  - PS initialization will be done as it is not done before. 
+17:00:55.611 INFO  - Running PS initialization.... 
+17:00:56.021 INFO  - ps7_init is completed. 
+17:00:56.121 INFO  - ps7_post_config is completed. 
+17:00:56.221 INFO  - PS Initialization is complete. 
+17:02:29.183 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:03:28.849 INFO  - Processing command line option -hwspec /nfs/home/a/ac_pate/COEN317/lab3/lab3_3/lab3_3.sdk/SDK/SDK_Export/hw/system.xml. 
+17:03:43.984 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:03:44.084 INFO  - PS initialization will be done as it is not done before. 
+17:03:44.085 INFO  - Running PS initialization.... 
+17:03:44.483 INFO  - ps7_init is completed. 
+17:03:44.583 INFO  - ps7_post_config is completed. 
+17:03:44.684 INFO  - PS Initialization is complete. 
+17:13:03.228 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

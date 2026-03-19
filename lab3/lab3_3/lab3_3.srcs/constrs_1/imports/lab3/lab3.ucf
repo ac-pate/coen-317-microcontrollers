@@ -1,0 +1,2 @@
+# axi_gpio_for_C LEDS on ZC702
+NET "PWM" LOC = D15;

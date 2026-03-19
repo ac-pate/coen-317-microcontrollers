@@ -1,0 +1,14 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Mar 19 16:50:54 2026
+
+drc -z system_stub_routed.ncd system_stub.pcf
+
+WARNING:PhysDesignRules:2452 - The IOB PWM is either not constrained (LOC) to a
+   specific location and/or has an undefined I/O Standard (IOSTANDARD). This
+   condition may seriously affect the device and will be an error in bitstream
+   creation. It should be corrected by properly specifying the pin location and
+   I/O Standard.
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

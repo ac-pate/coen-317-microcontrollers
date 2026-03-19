@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="16" version="2.0">
+<workbench progressCount="20" version="2.0">
 <workbenchAdvisor/>
-<window height="933" width="1821" x="0" y="33">
+<window height="933" maximized="true" width="1821" x="0" y="33">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -58,29 +58,16 @@
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.tm.terminal.view.TerminalView" partName="Terminal 1">
 <viewState ConnectionType="org.eclipse.tm.internal.terminal.serial.SerialConnector" Title="Terminal 1" _keys_="ConnectionType,Title,connectionManageractive,connectionManagerconnection0ConnectionType,connectionManagerconnection0Encoding,connectionManagerconnection0HasCommandInputField,connectionManagerconnection0PartName,connectionManagerconnection0Summary,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.BaudRate,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.DataBits,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.FlowControl,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.Parity,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.SerialPort,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.StopBits,connectionManagerconnection0org.eclipse.tm.internal.terminal.telnet.TelnetConnector.NetworkPort,connectionManagerconnection0org.eclipse.tm.internal.terminal.telnet.TelnetConnector.Timeout,connectionManagersize,org.eclipse.tm.internal.terminal.serial.SerialConnector.BaudRate,org.eclipse.tm.internal.terminal.serial.SerialConnector.DataBits,org.eclipse.tm.internal.terminal.serial.SerialConnector.FlowControl,org.eclipse.tm.internal.terminal.serial.SerialConnector.Parity,org.eclipse.tm.internal.terminal.serial.SerialConnector.SerialPort,org.eclipse.tm.internal.terminal.serial.SerialConnector.StopBits" connectionManageractive="connection0" connectionManagerconnection0ConnectionType="org.eclipse.tm.internal.terminal.serial.SerialConnector" connectionManagerconnection0Encoding="ISO-8859-1" connectionManagerconnection0HasCommandInputField="false" connectionManagerconnection0PartName="Terminal 1" connectionManagerconnection0Summary="/dev/ttyUSB0, 115200, 8, 1, None, None" connectionManagersize="1">
-<connectionManagerconnection0org>
-<eclipse>
-<tm>
-<internal>
-<terminal>
-<serial>
-<SerialConnector BaudRate="115200" DataBits="8" FlowControl="None" Parity="None" SerialPort="/dev/ttyUSB0" StopBits="1"/>
+<connectionManagerconnection0org>&#x0A;<eclipse>&#x0A;<tm>&#x0A;<internal>&#x0A;<terminal>&#x0A;<serial>&#x0A;<SerialConnector BaudRate="115200" DataBits="8" FlowControl="None" Parity="None" SerialPort="/dev/ttyUSB0" StopBits="1"/>
 </serial>
-<telnet>
-<TelnetConnector NetworkPort="23" Timeout="10"/>
+<telnet>&#x0A;<TelnetConnector NetworkPort="23" Timeout="10"/>
 </telnet>
 </terminal>
 </internal>
 </tm>
 </eclipse>
 </connectionManagerconnection0org>
-<org>
-<eclipse>
-<tm>
-<internal>
-<terminal>
-<serial>
-<SerialConnector BaudRate="115200" DataBits="8" FlowControl="None" Parity="None" SerialPort="/dev/ttyUSB0" StopBits="1"/>
+<org>&#x0A;<eclipse>&#x0A;<tm>&#x0A;<internal>&#x0A;<terminal>&#x0A;<serial>&#x0A;<SerialConnector BaudRate="115200" DataBits="8" FlowControl="None" Parity="None" SerialPort="/dev/ttyUSB0" StopBits="1"/>
 </serial>
 </terminal>
 </internal>
@@ -107,7 +94,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.tm.terminal.view.TerminalView" activePerspective="org.eclipse.cdt.ui.CPerspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.cdt.ui.CPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -187,7 +174,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.585209" ratioLeft="364" ratioRight="258" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.tm.terminal.view.TerminalView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>

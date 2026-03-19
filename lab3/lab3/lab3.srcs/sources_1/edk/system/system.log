@@ -372,3 +372,80 @@ Address Map for Processor processing_system7_0
   (0x42800000-0x4280ffff) axi_timer_0	axi_interconnect_1
 
 Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.7 Build EDK_P.20131013
+
+Xilinx EDK 14.7 Build EDK_P.20131013
+
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /CMC/tools/xilinx_14.7/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/process
+   ing_system7_v4_03_a/data/processing_system7_v2_1_0.mpd line 319 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /CMC/tools/xilinx_14.7/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_int
+   erconnect_v1_06_a/data/axi_interconnect_v2_1_0.mpd line 81 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x3FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x20000000; High Address = 0x3FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+  (0x41200000-0x4120ffff) axi_gpio_for_output	axi_interconnect_1
+  (0x42800000-0x4280ffff) axi_timer_0	axi_interconnect_1
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /CMC/tools/xilinx_14.7/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/process
+   ing_system7_v4_03_a/data/processing_system7_v2_1_0.mpd line 319 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /CMC/tools/xilinx_14.7/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_int
+   erconnect_v1_06_a/data/axi_interconnect_v2_1_0.mpd line 81 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x3FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x20000000; High Address = 0x3FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+  (0x41200000-0x4120ffff) axi_gpio_for_output	axi_interconnect_1
+  (0x42800000-0x4280ffff) axi_timer_0	axi_interconnect_1
+
+Checking platform address map ...

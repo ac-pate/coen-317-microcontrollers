@@ -10,3 +10,11 @@
 	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
 	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
 
+15:24:02.783 INFO  - Processing command line option -hwspec /nfs/home/a/ac_pate/COEN317/lab3/lab3/lab3.sdk/SDK/SDK_Export/hw/system.xml. 
+15:24:34.583 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:24:34.683 INFO  - PS initialization will be done as it is not done before. 
+15:24:34.683 INFO  - Running PS initialization.... 
+15:24:35.103 INFO  - ps7_init is completed. 
+15:24:35.115 INFO  - ps7_post_config is completed. 
+15:24:35.215 INFO  - PS Initialization is complete. 
+16:26:50.969 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

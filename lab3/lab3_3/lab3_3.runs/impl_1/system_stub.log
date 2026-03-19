@@ -1,0 +1,6 @@
+INFO:NgdBuild - Release 14.7 edif2ngd P.20131013 (lin64)
+INFO:NgdBuild - Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+</CMC/tools/xilinx_14.7/14.7/ISE_DS/ISE/data/edif2ngd.pfd> with local file
+</nfs/sw_cmc/x86_64.EL7/tools/xilinx_14.7/14.7/ISE_DS/ISE/data/edif2ngd.pfd>
+Writing module to "_ngo/system_stub.ngo"...

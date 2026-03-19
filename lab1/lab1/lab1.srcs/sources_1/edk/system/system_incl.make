@@ -7,7 +7,7 @@
 # file manually, will be lost when make is invoked next. 
 #################################################################
 
-XILINX_EDK_DIR = /nfs/sw_cmc/x86_64.EL7/tools/xilinx_14.7/14.7/ISE_DS/EDK
+XILINX_EDK_DIR = /CMC/tools/xilinx_14.7/14.7/ISE_DS/EDK
 
 SYSTEM = system
 
